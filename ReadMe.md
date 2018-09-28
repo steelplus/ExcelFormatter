@@ -4,7 +4,7 @@
 
 # 使い方
 
-```ExcelFormatter.exe <option> <処理対象ディレクトリ名>```
+```ExcelFormatter.exe <処理対象ディレクトリ名> <option>```
 
 処理対象のディレクトリは複数指定可能です。
 
@@ -19,7 +19,7 @@
 |``-sr --removesample``|指定のシートに対してSAMPLE文字を取り除きます。|
 |``-sa --addsample``|指定のシートに対してSAMPLE文字を追加します。|
 |``-ts --timestamp``|対象ファイルのタイムスタンプを上書きします。|
-|``-mr --mirror``|処理対象ファイルを上書きせず、<output dir>に処理後のファイルをコピーします。|
+|``-mr --mirror``|処理対象ファイルを上書きせず、`<output dir>`に処理後のファイルをコピーします。|
 |``-sd --subDirectory``|処理対象について、サブフォルダも検索します。|
 |``-c --config``|コンフィグファイル(``config.json``)の雛形を作成し、アプリケーションを終了します。|
 
